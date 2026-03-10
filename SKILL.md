@@ -107,6 +107,5 @@ version    :  #101-Ubuntu SMP Tue Nov 14 13:29:11 UTC 2023
 
 ## Related
 
-- [Back to x-cmd Skill](../../SKILL.md)
 - [x-cmd uname module](https://x-cmd.com/mod/uname)
 - Native `uname(1)` manual page
