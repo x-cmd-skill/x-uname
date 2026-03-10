@@ -4,15 +4,15 @@ description: |
   Enhanced `uname` command with colorized, structured output.
   Shows hostname, OS, kernel, architecture.
   
-  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
-  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
+  **Dependency**: This is an x-cmd module. Install x-cmd first (see x-cmd skill for installation options).
+  see x-cmd skill for installation.
 
 license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
   author: Li Junhao
-  version: "0.0.1"
+  version: "1.0.0"
   category: x-cmd-extension
   tags: [x-cmd, system, uname, sysinfo]
 ---
@@ -107,5 +107,4 @@ version    :  #101-Ubuntu SMP Tue Nov 14 13:29:11 UTC 2023
 
 ## Related
 
-- [x-cmd uname module](https://x-cmd.com/mod/uname)
 - Native `uname(1)` manual page
